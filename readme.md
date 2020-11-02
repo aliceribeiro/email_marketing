@@ -1,6 +1,7 @@
 # Indice
 - [Sobre](#-sobre)
 - [Modelo 1](#-Modelo-1---Bytebank)
+- [Modelo 2](#-Modelo-2---AudioShop)
 
 ---
 
@@ -18,6 +19,15 @@ O uso de de tables e tables aninhadas foi usado deliberadamente para não ficar 
 </h3>
 
 <img src="https://ik.imagekit.io/aliceribeiro/Bytebank_-_Desktop_e_Mobile_BElb9NjW1.png">
+
+---
+
+## 📩 Modelo 2 - AudioShop
+<h3>
+  <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_audioshop/mail_mkt_audioshop.html">Acessar demonstração</a>
+</h3>
+
+<img src="https://ik.imagekit.io/aliceribeiro/AudioShop_-_Desktop__img__LhZCSWLc6.png">
 
 --
 <h4>🚧 Em construção...</h4>

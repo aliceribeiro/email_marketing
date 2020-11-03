@@ -2,7 +2,8 @@
 - [Sobre](#-sobre)
 - [Modelo 1](#-Modelo-1---Bytebank)
 - [Modelo 2](#-Modelo-2---AudioShop)
-- [Modelo 3](#-Modelo-2---Recibo)
+- [Modelo 3](#-Modelo-3---Recibo)
+- [Modelo 4](#-Modelo-4---Boas-vindas)
 
 ---
 
@@ -38,6 +39,15 @@ O uso de de tables e tables aninhadas foi usado deliberadamente para não ficar 
 </h3>
 
 <img src="https://ik.imagekit.io/aliceribeiro/Recibo_-_Desktop__img__zNCAxBW1I.png">
+
+---
+
+## 📩 Modelo 4 - Boas-vindas
+<h3>
+  <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_verificacao/mail_mkt_verificacao_conta.html">Acessar demonstração</a>
+</h3>
+
+<img src="https://ik.imagekit.io/aliceribeiro/Boas-vindas_-_Desktop__img__rneXM8_K_.png">
 
 --
 <h4>🚧 Em construção...</h4>

@@ -1,11 +1,10 @@
 # Indice
 - [Sobre](#-sobre)
-- [Modelo 1](#-Modelo-1---Bytebank)
-- [Modelo 2](#-Modelo-2---AudioShop)
-- [Modelo 3](#-Modelo-3---Seu-Pedido)
-- [Modelo 4](#-Modelo-4---Boas-vindas)
-
----
+- [Modelo 1 - Convite CTA](#-Modelo-1---Bytebank)
+- [Modelo 2 - E-commerce CTA](#-Modelo-2---AudioShop)
+- [Modelo 3 - Recibo](#-Modelo-3---Seu-Pedido)
+- [Modelo 4 - Verificação de conta](#-Modelo-4---Boas-vindas)
+- [Próximas *features*](#-Próximas-*features*)
 
 ## 📑 Sobre
 
@@ -16,8 +15,6 @@ Quando se trata desse tipo de conteúdo, algumas boas práticas acabam tendo que
 Os *designers* foram desenvolvidos no **Figma** e desenvolvidos em **HTML** puro, sendo assim, uma parte do CSS está dentro do mesmo arquivo dentro da *tag styles* ou *inline*. 
 
 Até o momento, os arquivos são compatíveis 100% com o **Gmail**.
-
----
 
 ## 📩 Modelo 1 - Bytebank
 
@@ -31,8 +28,6 @@ No corpo do e-mail foi utilizado uma única coluna para a disposição dos eleme
   <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_bytebank/mail_mkt_convite.html">Acessar demonstração</a>
 </h3>
 
----
-
 ## 📩 Modelo 2 - AudioShop
 
 Modelo de e-mail simulando uma promoção em um e-commerce, estruturado em um única coluna com botão para *Call To Action*. 
@@ -42,20 +37,16 @@ Modelo de e-mail simulando uma promoção em um e-commerce, estruturado em um ú
 <h3 align="center">
   <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_audioshop/mail_mkt_audioshop.html">Acessar demonstração</a>
 </h3>
----
 
 ## 📩 Modelo 3 - Seu Pedido
 
 Modelo simulando um recibo/nota fiscal.
 
-<img src="https://ik.imagekit.io/aliceribeiro/
-Recibo_-_Desktop__img__zNCAxBW1I.png">
+<img src="https://ik.imagekit.io/aliceribeiro/Recibo_-_Desktop__img__zNCAxBW1I.png">
 
 <h3 align="center">
   <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_recibo/mail_mkt_recibo.html">Acessar demonstração</a>
 </h3>
-
----
 
 ## 📩 Modelo 4 - Boas-vindas
 
@@ -66,7 +57,6 @@ Modelo simulando uma boas-vindas à uma site e verificação de conta.
 <h3 align="center">
   <a href="https://aliceribeiro.github.io/email_marketing/mail_mkt_verificacao/mail_mkt_verificacao_conta.html">Acessar demonstração</a>
 </h3>
----
 
 ## 🛠 Próximas *features*
 

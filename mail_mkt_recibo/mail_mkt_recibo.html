@@ -32,14 +32,30 @@
       color: #222222;
     }
 
+    .detalhes {
+      font-size: 14px; 
+      font-weight: 400; 
+      color: #999999;
+    }
+
+    .linha1 {
+      border-color: #EEEEEE; 
+      width: 25%;
+    }
+
+    .linha2 {
+      border-color: #222222;
+      width: 25%;
+    }
+
   </style>
 </head>
 
 <body>
   <table border="0" width="100%" align="center" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center">
-        <span style="font-size: 36px; font-weight: 300; color: #222222;">
+      <td align="center" style="font-size: 36px; font-weight: 300; color: #222222;">
+        <span>
           <br>
           Obrigado pela preferência!
         </span>
@@ -59,184 +75,260 @@
       <td align="center" style="font-size: 14px; font-weight: 400; color: #999999;">
         <br>
         <span>Domingo, 01 de novembro de 2020 às 16:16</span>
-        <hr style="border-color: #EEEEEE" width="320px">
+        <hr class="linha1">
       </td>
     </tr>
 
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 400; color: #222222;">
-        <span>Alguma coisa 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          20,00
-        </span>
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" class="descricao">
-        <span>Alguma outra coisa 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          10,00
-        </span>
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" class="descricao">
-        <span>Outra coisa que é muito boa 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          50,00
-        </span>
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" class="descricao">
-        <span>Subtotal 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          80,00
-        </span>
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 400; color: #999999;">
-        <span>Taxa 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          15,00
-        </span>
-        <hr style="border-color: #222222" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 700; color: #222222;">
-        <span>Total 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          R$ 95,00
-        </span>
-        <hr style="border-color: #222222" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        <br>
-        <span class="titulo">Detalhes</span>
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 700; color: #222222;">
-          <span>Enviado para</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td class="descricao">
+                <span>
+                  Alguma coisa
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td class="descricao">
+                  <span>
+                    20,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
         </td>
       </tr>
-    </tr>
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 400; color: #222222;">
-        <span style="width: 10%;">Rua A, 00 - São Paulo/SP CEP 00000-000</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <hr style="border-color: #EEEEEE" width="320px">
-      </td>
-    </tr>
+    </table>
+    <hr class="linha1">
 
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 700; color: #222222;">
-          <span>Pagamento</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          &nbsp;&nbsp;&nbsp;&nbsp; 
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td class="descricao">
+                <span>
+                  Alguma outra coisa
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td class="descricao">
+                  <span>
+                    10,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
         </td>
       </tr>
-    </tr>
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 400; color: #222222;">
-        <span style="width: 10%;">Visa Final do cartão *1234 Vencimento 08/2025</span>
-        &nbsp;
-        <hr style="border-color: #EEEEEE" width="320px">
-        <br><br>
-      </td>
-    </tr>
+    </table>
+    <hr class="linha1">
 
-    <tr>
-      <td align="center" style="background-color: #1ABC9C; font-size: 28px; font-weight: 400; color: #FFFFFF; padding: 30px 0;">
-        <span>Compartilhe com os seus amigos</span>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="background-color: #1ABC9C; font-size: 14px; font-weight: 400; color: #FFFFFF;">
-        <span>Compartilhe nossa URL única com os seus amigos com R$ 10,00 de crédito.</span>
-      </td>
-    </tr>
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td class="descricao">
+                <span>
+                  Outra coisa que é muito boa
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td class="descricao">
+                  <span>
+                    50,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha1">
 
-    <tr>
-      <td align="center" style="background-color: #1ABC9C; font-size: 14px; font-weight: 700; color: #FFFFFF; padding: 30px 0;">
-        <span style="background-color: #48C9B0; display: inline-block; border-style: dashed; border-width: 2px; padding: 10px 20px;">
-          short.url/12345
-        </span>
-      </td>
-    </tr>
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td class="detalhes">
+                <span>
+                  Subtotal
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td class="detalhes">
+                  <span>
+                    80,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha1">
 
-    <tr>
-      <td align="center">
-        <br><br>
-        <a href="#" style="font-family: 'Open Sans', sans-serif; text-decoration: none; letter-spacing: 1px; font-size: 14px; font-weight: 700; color: #FFFFFF; padding: 30px 0; background-color: #48C9B0; display: inline-block; border-radius: 5px; border-width: 2px; padding: 10px 20px;">
-          Ver minha conta
-        </a>
-      </td>
-    </tr>
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td class="detalhes">
+                <span>
+                  Taxa
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td class="detalhes">
+                  <span>
+                    15,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha2">
 
-    <tr>
-      <td align="center" style="font-size: 14px; font-weight: 400; color: #222222;">
-        <br><br>
-        <span>Obrigado por ser um ótimo cliente!</span>
-        <br><br><br>
-      </td>
-    </tr>
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td align="center" style="font-size: 14px; font-weight: 700; color: #222222;">
+                <span>
+                  Total
+                </span>
+              </td>
+            </tr>
+          </table>
+          <td>
+            <table align="right">
+              <tr>
+                <td align="center" style="font-size: 14px; font-weight: 700; color: #222222;">
+                  <span>
+                    95,00
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha2">
 
-  </table>
+    <table align="center">
+      <tr>
+        <td align="center">
+          <br>
+          <span class="titulo">Detalhes</span>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha1">
+
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td class="descricao" style="width: 10%;">
+          <span>
+            Enviado para:
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="descricao" style="width: 25%;">
+          <span>
+            Rua A, 00 - São Paulo/SP CEP 00000-000
+          </span>
+        </td>
+      </tr>
+    </table>
+    <hr class="linha1">
+
+    <table align="center" style="width: 25%;">
+      <tr>
+        <td class="descricao" style="width: 10%;">
+          <span>
+            Pagamento:
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td class="descricao" style="width: 25%;">
+          <span>
+            Visa Final do cartão *1234 Vencimento 08/2025
+          </span>
+        </td>
+      </tr>
+    </table>
+
+    <br><br>
+    
+    <table border="0" width="100%" align="center" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" style="background-color: #1ABC9C; font-size: 28px; font-weight: 400; color: #FFFFFF; padding: 30px 0;">
+          <span>Compartilhe com os seus amigos</span>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="background-color: #1ABC9C; font-size: 14px; font-weight: 400; color: #FFFFFF;">
+          <span>Compartilhe nossa URL única com os seus amigos com R$ 10,00 de crédito.</span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td align="center" style="background-color: #1ABC9C; font-size: 14px; font-weight: 700; color: #FFFFFF; padding: 30px 0;">
+          <span style="background-color: #48C9B0; display: inline-block; border-style: dashed; border-width: 2px; padding: 10px 20px;">
+            short.url/12345
+          </span>
+        </td>
+      </tr>
+  
+      <tr>
+        <td align="center">
+          <br><br>
+          <a href="#" style="font-family: 'Open Sans', sans-serif; text-decoration: none; letter-spacing: 1px; font-size: 14px; font-weight: 700; color: #FFFFFF; padding: 30px 0; background-color: #48C9B0; display: inline-block; border-radius: 5px; border-width: 2px; padding: 10px 20px;">
+            Ver minha conta
+          </a>
+        </td>
+      </tr>
+  
+      <tr>
+        <td align="center" style="font-size: 14px; font-weight: 400; color: #222222;">
+          <br><br>
+          <span>Obrigado por ser um ótimo cliente!</span>
+          <br><br><br>
+        </td>
+      </tr>
+    </table>
 </body>
